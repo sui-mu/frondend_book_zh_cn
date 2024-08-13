@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://sui-mu.github.io/',
 	integrations: [
 		starlight({
 			title: '前端知识手册',
